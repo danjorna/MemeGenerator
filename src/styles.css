@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header--logo {
+  position: absolute;
+  width: 178.79px;
+  height: 26.22px;
+  left: 20px;
+  top: 19px;
+}
+
+.main {
+  padding: 100px;
+}
+
+.header {
+  position: absolute;
+  width: 550px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px;
+  gap: 17px;
+}
+
+.top-input {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 230px;
+  height: 35px;
+  left: 36px;
+  top: 101px;
+
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+
+.bottom-input {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 230px;
+  height: 35px;
+  left: 283px;
+  top: 101px;
+
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+
+.form--button {
+  position: absolute;
+  width: 477px;
+  height: 40px;
+  left: 36px;
+  top: 151px;
+}
+
+.meme--image {
+  position: absolute;
+  width: 477px;
+  height: 268px;
+  left: 36px;
+  top: 227px;
+
+  border-radius: 2px;
+}
+
+.meme--text--top {
+  position: absolute;
+  width: 106px;
+  height: 39px;
+  left: 213px;
+  top: 243px;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.meme--text--bottom {
+  position: absolute;
+  width: 255px;
+  height: 39px;
+  left: 139px;
+  top: 440px;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #0000;
+}
